@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма для заповнення даних з валідацією</title>
+    <link rel="stylesheet" href="css/formStyle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form_container">
+            <h2 class="form_title">Особиста інформація</h2>
+            <form name="input_form" id="input_form" onsubmit="return false">
+                <input class="input_field" id="fullName" placeholder="ПІБ" type="text">
+                <label class="wrong_input" for="fullName" hidden>Неправильно введений ПІБ. Приклад: Єльчанінов А.Ю.</label>
+
+                <input class="input_field" id="group" placeholder="Група" type="text">
+                <label class="wrong_input" for="group" hidden>Неправильно введено групу. Приклад: ІП-12</label>
+
+                <input class="input_field" id="id_card" placeholder="ID-карта" type="text">
+                <label class="wrong_input" for="id_card" hidden>Неправильний номер ID-картки. Приклад:"ІІ №963432".</label>
+
+                <input class="input_field" id="birth_date" placeholder="Дата народження" type="text">
+                <label class="wrong_input" for="birth_date" hidden>Неправильно введено дату. Приклад: 05.07.2007</label>
+
+                <input class="input_field" id="e_mail" placeholder="Електронна пошта" type="text">
+                <label class="wrong_input" for="e_mail" hidden>Неправильно введено email. Приклад: jsmith@example.com</label>
+
+                <input onclick="formValidation()" class="input_field" id="send_button" type="submit" value="Відправити">
+            </form>
+        </div>
+
+        <div id="inf_container">
+            <h2>Особисті дані користувача</h2>
+            <ul id="inf_ul">
+
+            </ul>
+        </div>
+
+    </div>
+    <script src="scripts/formScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.blue {
+    background-color: blue;
+    color: yellow;
+}
+
+.yellow {
+    background-color: yellow;
+    color: blue;
+}
+
+.white {
+    background-color: white;
+    color: grey;
+}
+
+.grey {
+    background-color: grey;
+    color: white;
+}
+
+.img_buttons {
+    display: flex;
+}
+
+button {
+	margin: 5px;
+	padding: 5px 10px;
+	background-color: lightgray;
+	border: none;
+	cursor: pointer;
+}

@@ -1,0 +1,11 @@
+td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #000; /* Додано рамки для кожної клітинки */
+}
+
+table {
+    border-collapse: collapse; /* Об'єднання рамок між клітинками */
+}
