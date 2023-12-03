@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e272e;
+    color: #ecf0f1;
+}
+
+#first_row{
+    color: rgb(0, 247, 255);
+    text-align: center;
+}
+
+#button {
+    width: 10%;
+    min-width: 150px;
+    min-height: 50px;
+    border: none;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: rgb(0, 128, 255);
+    color: white;
+    cursor: pointer;
+}
+
+#count_label {
+    font-size: larger;
+    text-align: center;
+}
+
+#button:hover {
+    background-color: rgba(0, 128, 255, 0.686);
+}
+
+#results {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    border-radius: 5px;
+    padding: 20px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #2c3e50;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.person_info{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    flex-basis: 15%; 
+    width: 100%;
+}
+
+.person_img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.person_inf_item {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
