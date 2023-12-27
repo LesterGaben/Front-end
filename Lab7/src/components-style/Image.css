@@ -1,0 +1,11 @@
+.img_buttons {
+    display: flex;
+}
+
+button {
+	margin: 5px;
+	padding: 5px 10px;
+	background-color: lightgray;
+	border: none;
+	cursor: pointer;
+}

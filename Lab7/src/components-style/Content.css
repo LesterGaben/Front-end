@@ -1,0 +1,19 @@
+.blue {
+    background-color: blue;
+    color: yellow;
+}
+
+.yellow {
+    background-color: yellow;
+    color: blue;
+}
+
+.white {
+    background-color: white;
+    color: grey;
+}
+
+.grey {
+    background-color: grey;
+    color: white;
+}
